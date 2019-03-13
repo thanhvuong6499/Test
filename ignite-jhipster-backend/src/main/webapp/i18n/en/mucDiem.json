@@ -1,0 +1,11 @@
+{
+    "jhipsterApp": {
+        "MucDiem" : {
+            "null": "",
+            "CHUADAT": "CHUADAT",
+            "DAT": "DAT",
+            "KHA": "KHA",
+            "TOT": "TOT"
+        }
+    }
+}

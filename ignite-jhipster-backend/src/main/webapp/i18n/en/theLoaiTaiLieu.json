@@ -1,0 +1,24 @@
+
+{
+    "jhipsterApp": {
+        "theLoaiTaiLieu" : {
+            "home": {
+                "title": "The Loai Tai Lieus",
+                "createLabel": "Create a new The Loai Tai Lieu",
+                "createOrEditLabel": "Create or edit a The Loai Tai Lieu",
+                "search": "Search for The Loai Tai Lieu"
+            },
+            "created": "A new The Loai Tai Lieu is created with identifier {{ param }}",
+            "updated": "A The Loai Tai Lieu is updated with identifier {{ param }}",
+            "deleted": "A The Loai Tai Lieu is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete The Loai Tai Lieu {{ id }}?"
+            },
+            "detail": {
+                "title": "The Loai Tai Lieu"
+            },
+            "noiDung": "Noi Dung",
+            "tailieu": "Tailieu"
+        }
+    }
+}

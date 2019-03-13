@@ -1,0 +1,30 @@
+{
+    "name": "TieuChiDanhGia",
+    "fields": [
+        {
+            "fieldName": "noiDung",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "level",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "theloaitieuchi",
+            "otherEntityName": "theLoaiTieuChi",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190304143941",
+    "entityTableName": "tieu_chi_danh_gia",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

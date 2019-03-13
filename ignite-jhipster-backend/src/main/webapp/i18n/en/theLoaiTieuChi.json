@@ -1,0 +1,24 @@
+
+{
+    "jhipsterApp": {
+        "theLoaiTieuChi" : {
+            "home": {
+                "title": "The Loai Tieu Chis",
+                "createLabel": "Create a new The Loai Tieu Chi",
+                "createOrEditLabel": "Create or edit a The Loai Tieu Chi",
+                "search": "Search for The Loai Tieu Chi"
+            },
+            "created": "A new The Loai Tieu Chi is created with identifier {{ param }}",
+            "updated": "A The Loai Tieu Chi is updated with identifier {{ param }}",
+            "deleted": "A The Loai Tieu Chi is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete The Loai Tieu Chi {{ id }}?"
+            },
+            "detail": {
+                "title": "The Loai Tieu Chi"
+            },
+            "noiDung": "Noi Dung",
+            "level": "Level"
+        }
+    }
+}

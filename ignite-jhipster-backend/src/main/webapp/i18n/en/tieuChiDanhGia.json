@@ -1,0 +1,25 @@
+
+{
+    "jhipsterApp": {
+        "tieuChiDanhGia" : {
+            "home": {
+                "title": "Tieu Chi Danh Gias",
+                "createLabel": "Create a new Tieu Chi Danh Gia",
+                "createOrEditLabel": "Create or edit a Tieu Chi Danh Gia",
+                "search": "Search for Tieu Chi Danh Gia"
+            },
+            "created": "A new Tieu Chi Danh Gia is created with identifier {{ param }}",
+            "updated": "A Tieu Chi Danh Gia is updated with identifier {{ param }}",
+            "deleted": "A Tieu Chi Danh Gia is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Tieu Chi Danh Gia {{ id }}?"
+            },
+            "detail": {
+                "title": "Tieu Chi Danh Gia"
+            },
+            "noiDung": "Noi Dung",
+            "level": "Level",
+            "theloaitieuchi": "Theloaitieuchi"
+        }
+    }
+}

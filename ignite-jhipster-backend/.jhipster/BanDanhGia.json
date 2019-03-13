@@ -1,0 +1,26 @@
+{
+    "name": "BanDanhGia",
+    "fields": [
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "giaovien",
+            "otherEntityName": "giaoVien",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190304143942",
+    "entityTableName": "ban_danh_gia",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

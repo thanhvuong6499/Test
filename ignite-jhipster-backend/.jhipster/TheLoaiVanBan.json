@@ -1,0 +1,19 @@
+{
+    "name": "TheLoaiVanBan",
+    "fields": [
+        {
+            "fieldName": "noiDung",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190304143937",
+    "entityTableName": "the_loai_van_ban",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

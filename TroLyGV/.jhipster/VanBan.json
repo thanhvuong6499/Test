@@ -1,0 +1,45 @@
+{
+    "name": "VanBan",
+    "fields": [
+        {
+            "fieldName": "tenVanban",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tomTat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "uRL",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "TrangThai",
+            "fieldValues": "TONTAI,DAXOA"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "coquanbanhanh",
+            "otherEntityName": "coQuanBanHanh",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "theloaivanban",
+            "otherEntityName": "theLoaiVanBan",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190304143936",
+    "entityTableName": "van_ban",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

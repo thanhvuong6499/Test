@@ -1,0 +1,35 @@
+
+{
+    "jhipsterApp": {
+        "giaoVien" : {
+            "home": {
+                "title": "Giao Viens",
+                "createLabel": "Create a new Giao Vien",
+                "createOrEditLabel": "Create or edit a Giao Vien",
+                "search": "Search for Giao Vien"
+            },
+            "created": "A new Giao Vien is created with identifier {{ param }}",
+            "updated": "A Giao Vien is updated with identifier {{ param }}",
+            "deleted": "A Giao Vien is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Giao Vien {{ id }}?"
+            },
+            "detail": {
+                "title": "Giao Vien"
+            },
+            "cMND": "C MND",
+            "hoTen": "Ho Ten",
+            "sDT": "S DT",
+            "ngaySinh": "Ngay Sinh",
+            "queQuan": "Que Quan",
+            "diaChi": "Dia Chi",
+            "email": "Email",
+            "matKhau": "Mat Khau",
+            "dungLuongKho": "Dung Luong Kho",
+            "daSuDung": "Da Su Dung",
+            "capBac": "Cap Bac",
+            "status": "Status",
+            "tailieu": "Tailieu"
+        }
+    }
+}

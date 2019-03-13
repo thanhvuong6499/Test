@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity VanBan.
+    -->
+    <changeSet id="20190304143936-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="coquanbanhanh_id"
+                                 baseTableName="van_ban"
+                                 constraintName="fk_van_ban_coquanbanhanh_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="co_quan_ban_hanh"/>
+
+        <addForeignKeyConstraint baseColumnNames="theloaivanban_id"
+                                 baseTableName="van_ban"
+                                 constraintName="fk_van_ban_theloaivanban_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="the_loai_van_ban"/>
+
+    </changeSet>
+</databaseChangeLog>

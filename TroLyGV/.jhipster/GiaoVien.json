@@ -1,0 +1,74 @@
+{
+    "name": "GiaoVien",
+    "fields": [
+        {
+            "fieldName": "cMND",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "hoTen",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sDT",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ngaySinh",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "queQuan",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "diaChi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "matKhau",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dungLuongKho",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "daSuDung",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "capBac",
+            "fieldType": "CapBacGV",
+            "fieldValues": "GIAOVIEN,TRUONGKHOA,CANBOCAPCAO"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "TrangThai",
+            "fieldValues": "TONTAI,DAXOA"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "giaovien",
+            "relationshipName": "tailieu",
+            "otherEntityName": "taiLieu",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20190304143933",
+    "entityTableName": "giao_vien",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

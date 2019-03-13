@@ -1,0 +1,33 @@
+{
+    "name": "CauTraLoi",
+    "fields": [
+        {
+            "fieldName": "thangDiem",
+            "fieldType": "MucDiem",
+            "fieldValues": "CHUADAT,DAT,KHA,TOT"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "bandanhgia",
+            "otherEntityName": "banDanhGia",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "tieuchidanhgia",
+            "otherEntityName": "tieuChiDanhGia",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190304143940",
+    "entityTableName": "cau_tra_loi",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,56 @@
+{
+    "name": "TaiLieu",
+    "fields": [
+        {
+            "fieldName": "tenVanBan",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tomTat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "uRL",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dungLuong",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "tag",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "TrangThai",
+            "fieldValues": "TONTAI,DAXOA"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "tailieu",
+            "relationshipName": "theloaitailieu",
+            "otherEntityName": "theLoaiTaiLieu",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-many",
+            "relationshipName": "giaovien",
+            "otherEntityName": "giaoVien",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "tailieu"
+        }
+    ],
+    "changelogDate": "20190304143934",
+    "entityTableName": "tai_lieu",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

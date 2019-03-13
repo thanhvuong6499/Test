@@ -1,0 +1,24 @@
+
+{
+    "jhipsterApp": {
+        "banDanhGia" : {
+            "home": {
+                "title": "Ban Danh Gias",
+                "createLabel": "Create a new Ban Danh Gia",
+                "createOrEditLabel": "Create or edit a Ban Danh Gia",
+                "search": "Search for Ban Danh Gia"
+            },
+            "created": "A new Ban Danh Gia is created with identifier {{ param }}",
+            "updated": "A Ban Danh Gia is updated with identifier {{ param }}",
+            "deleted": "A Ban Danh Gia is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Ban Danh Gia {{ id }}?"
+            },
+            "detail": {
+                "title": "Ban Danh Gia"
+            },
+            "moTa": "Mo Ta",
+            "giaovien": "Giaovien"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+{
+    "jhipsterApp": {
+        "cauTraLoi" : {
+            "home": {
+                "title": "Cau Tra Lois",
+                "createLabel": "Create a new Cau Tra Loi",
+                "createOrEditLabel": "Create or edit a Cau Tra Loi",
+                "search": "Search for Cau Tra Loi"
+            },
+            "created": "A new Cau Tra Loi is created with identifier {{ param }}",
+            "updated": "A Cau Tra Loi is updated with identifier {{ param }}",
+            "deleted": "A Cau Tra Loi is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Cau Tra Loi {{ id }}?"
+            },
+            "detail": {
+                "title": "Cau Tra Loi"
+            },
+            "thangDiem": "Thang Diem",
+            "bandanhgia": "Bandanhgia",
+            "tieuchidanhgia": "Tieuchidanhgia"
+        }
+    }
+}

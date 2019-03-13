@@ -1,0 +1,23 @@
+
+{
+    "jhipsterApp": {
+        "theLoaiVanBan" : {
+            "home": {
+                "title": "The Loai Van Bans",
+                "createLabel": "Create a new The Loai Van Ban",
+                "createOrEditLabel": "Create or edit a The Loai Van Ban",
+                "search": "Search for The Loai Van Ban"
+            },
+            "created": "A new The Loai Van Ban is created with identifier {{ param }}",
+            "updated": "A The Loai Van Ban is updated with identifier {{ param }}",
+            "deleted": "A The Loai Van Ban is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete The Loai Van Ban {{ id }}?"
+            },
+            "detail": {
+                "title": "The Loai Van Ban"
+            },
+            "noiDung": "Noi Dung"
+        }
+    }
+}

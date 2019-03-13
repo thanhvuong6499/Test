@@ -1,0 +1,30 @@
+
+{
+    "jhipsterApp": {
+        "taiLieu" : {
+            "home": {
+                "title": "Tai Lieus",
+                "createLabel": "Create a new Tai Lieu",
+                "createOrEditLabel": "Create or edit a Tai Lieu",
+                "search": "Search for Tai Lieu"
+            },
+            "created": "A new Tai Lieu is created with identifier {{ param }}",
+            "updated": "A Tai Lieu is updated with identifier {{ param }}",
+            "deleted": "A Tai Lieu is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Tai Lieu {{ id }}?"
+            },
+            "detail": {
+                "title": "Tai Lieu"
+            },
+            "tenVanBan": "Ten Van Ban",
+            "tomTat": "Tom Tat",
+            "uRL": "U RL",
+            "dungLuong": "Dung Luong",
+            "tag": "Tag",
+            "status": "Status",
+            "theloaitailieu": "Theloaitailieu",
+            "giaovien": "Giaovien"
+        }
+    }
+}

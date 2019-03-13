@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+
+    <property name="now" value="now()" dbms="mysql"/>
+    <property name="autoIncrement" value="true"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle, mssql"/>
+
+    <!--
+        Added the entity GiaoVien.
+    -->
+    <changeSet id="20190304143933-1" author="jhipster">
+        <createTable tableName="giao_vien">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="c_mnd" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="ho_ten" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="s_dt" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="ngay_sinh" type="datetime">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="que_quan" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="dia_chi" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="email" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="mat_khau" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="dung_luong_kho" type="integer">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="da_su_dung" type="integer">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="cap_bac" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="status" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here, do not remove-->
+        </createTable>
+        <dropDefaultValue tableName="giao_vien" columnName="ngay_sinh" columnDataType="datetime"/>
+        
+        <createTable tableName="giao_vien_tailieu">
+            <column name="tailieus_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="giao_viens_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+        <addPrimaryKey columnNames="giao_viens_id, tailieus_id" tableName="giao_vien_tailieu"/>
+        
+    </changeSet>
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here, do not remove-->
+</databaseChangeLog>

@@ -1,0 +1,23 @@
+{
+    "name": "TheLoaiTieuChi",
+    "fields": [
+        {
+            "fieldName": "noiDung",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "level",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190304143939",
+    "entityTableName": "the_loai_tieu_chi",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

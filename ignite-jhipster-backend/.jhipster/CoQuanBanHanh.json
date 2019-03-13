@@ -1,0 +1,19 @@
+{
+    "name": "CoQuanBanHanh",
+    "fields": [
+        {
+            "fieldName": "tenCoQuan",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190304143938",
+    "entityTableName": "co_quan_ban_hanh",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,27 @@
+{
+    "name": "TheLoaiTaiLieu",
+    "fields": [
+        {
+            "fieldName": "noiDung",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "relationshipName": "tailieu",
+            "otherEntityName": "taiLieu",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "theloaitailieu"
+        }
+    ],
+    "changelogDate": "20190304143935",
+    "entityTableName": "the_loai_tai_lieu",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

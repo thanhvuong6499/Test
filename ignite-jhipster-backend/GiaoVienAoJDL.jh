@@ -1,0 +1,89 @@
+entity GiaoVien {
+	CMND String,
+    HoTen String,
+    SDT String,
+    NgaySinh ZonedDateTime,
+    QueQuan String,
+    DiaChi String,
+    Email String,
+    MatKhau String,
+    DungLuongKho Integer,
+    DaSuDung Integer,
+    CapBac CapBacGV,
+    Status TrangThai
+}
+
+enum CapBacGV {
+	GIAOVIEN, TRUONGKHOA, CANBOCAPCAO
+}
+
+enum TrangThai {
+	TONTAI, DAXOA
+}
+
+entity TaiLieu{
+	TenVanBan String,
+    TomTat String,
+    URL String,
+    DungLuong Integer,
+    Tag String,
+    Status TrangThai
+}
+
+entity TheLoaiTaiLieu{
+	NoiDung String
+}
+
+entity VanBan{
+	TenVanban String,
+    TomTat String,
+    URL String,
+    Status TrangThai
+}
+
+entity TheLoaiVanBan{
+	NoiDung String
+}
+
+entity CoQuanBanHanh{
+	TenCoQuan String
+}
+
+entity TheLoaiTieuChi{
+	NoiDung String,
+    Level Integer
+}
+
+entity CauTraLoi{
+	ThangDiem MucDiem
+}
+
+enum MucDiem{
+	CHUADAT, DAT, KHA, TOT
+}
+
+entity TieuChiDanhGia{
+	NoiDung String,
+    Level Integer
+}
+
+entity BanDanhGia{
+	MoTa String
+}
+
+relationship ManyToMany {
+	TaiLieu{theloaitailieu} to TheLoaiTaiLieu{tailieu},
+    GiaoVien{tailieu} to TaiLieu{giaovien}
+}
+
+
+relationship ManyToOne {
+    VanBan{coquanbanhanh} to CoQuanBanHanh,
+    VanBan{theloaivanban} to TheLoaiVanBan,
+    BanDanhGia{giaovien} to GiaoVien,
+    CauTraLoi{bandanhgia} to BanDanhGia,
+    CauTraLoi{tieuchidanhgia} to TieuChiDanhGia,
+    TieuChiDanhGia{theloaitieuchi} to TheLoaiTieuChi
+}
+
+service all with serviceImpl

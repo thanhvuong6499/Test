@@ -1,0 +1,10 @@
+{
+    "jhipsterApp": {
+        "CapBacGV" : {
+            "null": "",
+            "GIAOVIEN": "GIAOVIEN",
+            "TRUONGKHOA": "TRUONGKHOA",
+            "CANBOCAPCAO": "CANBOCAPCAO"
+        }
+    }
+}

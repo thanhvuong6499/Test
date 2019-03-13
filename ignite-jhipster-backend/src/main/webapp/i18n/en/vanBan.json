@@ -1,0 +1,28 @@
+
+{
+    "jhipsterApp": {
+        "vanBan" : {
+            "home": {
+                "title": "Van Bans",
+                "createLabel": "Create a new Van Ban",
+                "createOrEditLabel": "Create or edit a Van Ban",
+                "search": "Search for Van Ban"
+            },
+            "created": "A new Van Ban is created with identifier {{ param }}",
+            "updated": "A Van Ban is updated with identifier {{ param }}",
+            "deleted": "A Van Ban is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Van Ban {{ id }}?"
+            },
+            "detail": {
+                "title": "Van Ban"
+            },
+            "tenVanban": "Ten Vanban",
+            "tomTat": "Tom Tat",
+            "uRL": "U RL",
+            "status": "Status",
+            "coquanbanhanh": "Coquanbanhanh",
+            "theloaivanban": "Theloaivanban"
+        }
+    }
+}

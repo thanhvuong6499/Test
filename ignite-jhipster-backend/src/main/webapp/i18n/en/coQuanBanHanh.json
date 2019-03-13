@@ -1,0 +1,23 @@
+
+{
+    "jhipsterApp": {
+        "coQuanBanHanh" : {
+            "home": {
+                "title": "Co Quan Ban Hanhs",
+                "createLabel": "Create a new Co Quan Ban Hanh",
+                "createOrEditLabel": "Create or edit a Co Quan Ban Hanh",
+                "search": "Search for Co Quan Ban Hanh"
+            },
+            "created": "A new Co Quan Ban Hanh is created with identifier {{ param }}",
+            "updated": "A Co Quan Ban Hanh is updated with identifier {{ param }}",
+            "deleted": "A Co Quan Ban Hanh is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Co Quan Ban Hanh {{ id }}?"
+            },
+            "detail": {
+                "title": "Co Quan Ban Hanh"
+            },
+            "tenCoQuan": "Ten Co Quan"
+        }
+    }
+}
